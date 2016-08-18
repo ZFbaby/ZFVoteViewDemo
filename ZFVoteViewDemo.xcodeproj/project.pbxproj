@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		366DC1C31D65544700691A3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC1C21D65544700691A3B /* main.m */; };
+		366DC1C61D65544700691A3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC1C51D65544700691A3B /* AppDelegate.m */; };
+		366DC1C91D65544700691A3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC1C81D65544700691A3B /* ViewController.m */; };
+		366DC1CC1D65544700691A3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366DC1CA1D65544700691A3B /* Main.storyboard */; };
+		366DC1CE1D65544700691A3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366DC1CD1D65544700691A3B /* Assets.xcassets */; };
+		366DC1D11D65544700691A3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366DC1CF1D65544700691A3B /* LaunchScreen.storyboard */; };
+		366DC1DC1D65544700691A3B /* ZFVoteViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC1DB1D65544700691A3B /* ZFVoteViewDemoTests.m */; };
+		366DC1E71D65544700691A3B /* ZFVoteViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC1E61D65544700691A3B /* ZFVoteViewDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		366DC1D81D65544700691A3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 366DC1B61D65544700691A3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 366DC1BD1D65544700691A3B;
+			remoteInfo = ZFVoteViewDemo;
+		};
+		366DC1E31D65544700691A3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 366DC1B61D65544700691A3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 366DC1BD1D65544700691A3B;
+			remoteInfo = ZFVoteViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		366DC1BE1D65544700691A3B /* ZFVoteViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFVoteViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		366DC1C21D65544700691A3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		366DC1C41D65544700691A3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		366DC1C51D65544700691A3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		366DC1C71D65544700691A3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		366DC1C81D65544700691A3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		366DC1CB1D65544700691A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		366DC1CD1D65544700691A3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		366DC1D01D65544700691A3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		366DC1D21D65544700691A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		366DC1D71D65544700691A3B /* ZFVoteViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFVoteViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		366DC1DB1D65544700691A3B /* ZFVoteViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFVoteViewDemoTests.m; sourceTree = "<group>"; };
+		366DC1DD1D65544700691A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		366DC1E21D65544700691A3B /* ZFVoteViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFVoteViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		366DC1E61D65544700691A3B /* ZFVoteViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFVoteViewDemoUITests.m; sourceTree = "<group>"; };
+		366DC1E81D65544700691A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		366DC1BB1D65544700691A3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366DC1D41D65544700691A3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366DC1DF1D65544700691A3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		366DC1B51D65544700691A3B = {
+			isa = PBXGroup;
+			children = (
+				366DC1C01D65544700691A3B /* ZFVoteViewDemo */,
+				366DC1DA1D65544700691A3B /* ZFVoteViewDemoTests */,
+				366DC1E51D65544700691A3B /* ZFVoteViewDemoUITests */,
+				366DC1BF1D65544700691A3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		366DC1BF1D65544700691A3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				366DC1BE1D65544700691A3B /* ZFVoteViewDemo.app */,
+				366DC1D71D65544700691A3B /* ZFVoteViewDemoTests.xctest */,
+				366DC1E21D65544700691A3B /* ZFVoteViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		366DC1C01D65544700691A3B /* ZFVoteViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				366DC1C41D65544700691A3B /* AppDelegate.h */,
+				366DC1C51D65544700691A3B /* AppDelegate.m */,
+				366DC1C71D65544700691A3B /* ViewController.h */,
+				366DC1C81D65544700691A3B /* ViewController.m */,
+				366DC1CA1D65544700691A3B /* Main.storyboard */,
+				366DC1CD1D65544700691A3B /* Assets.xcassets */,
+				366DC1CF1D65544700691A3B /* LaunchScreen.storyboard */,
+				366DC1D21D65544700691A3B /* Info.plist */,
+				366DC1C11D65544700691A3B /* Supporting Files */,
+			);
+			path = ZFVoteViewDemo;
+			sourceTree = "<group>";
+		};
+		366DC1C11D65544700691A3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				366DC1C21D65544700691A3B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		366DC1DA1D65544700691A3B /* ZFVoteViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				366DC1DB1D65544700691A3B /* ZFVoteViewDemoTests.m */,
+				366DC1DD1D65544700691A3B /* Info.plist */,
+			);
+			path = ZFVoteViewDemoTests;
+			sourceTree = "<group>";
+		};
+		366DC1E51D65544700691A3B /* ZFVoteViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				366DC1E61D65544700691A3B /* ZFVoteViewDemoUITests.m */,
+				366DC1E81D65544700691A3B /* Info.plist */,
+			);
+			path = ZFVoteViewDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		366DC1BD1D65544700691A3B /* ZFVoteViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 366DC1EB1D65544700691A3B /* Build configuration list for PBXNativeTarget "ZFVoteViewDemo" */;
+			buildPhases = (
+				366DC1BA1D65544700691A3B /* Sources */,
+				366DC1BB1D65544700691A3B /* Frameworks */,
+				366DC1BC1D65544700691A3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFVoteViewDemo;
+			productName = ZFVoteViewDemo;
+			productReference = 366DC1BE1D65544700691A3B /* ZFVoteViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		366DC1D61D65544700691A3B /* ZFVoteViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 366DC1EE1D65544700691A3B /* Build configuration list for PBXNativeTarget "ZFVoteViewDemoTests" */;
+			buildPhases = (
+				366DC1D31D65544700691A3B /* Sources */,
+				366DC1D41D65544700691A3B /* Frameworks */,
+				366DC1D51D65544700691A3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				366DC1D91D65544700691A3B /* PBXTargetDependency */,
+			);
+			name = ZFVoteViewDemoTests;
+			productName = ZFVoteViewDemoTests;
+			productReference = 366DC1D71D65544700691A3B /* ZFVoteViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		366DC1E11D65544700691A3B /* ZFVoteViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 366DC1F11D65544700691A3B /* Build configuration list for PBXNativeTarget "ZFVoteViewDemoUITests" */;
+			buildPhases = (
+				366DC1DE1D65544700691A3B /* Sources */,
+				366DC1DF1D65544700691A3B /* Frameworks */,
+				366DC1E01D65544700691A3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				366DC1E41D65544700691A3B /* PBXTargetDependency */,
+			);
+			name = ZFVoteViewDemoUITests;
+			productName = ZFVoteViewDemoUITests;
+			productReference = 366DC1E21D65544700691A3B /* ZFVoteViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		366DC1B61D65544700691A3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZFbory;
+				TargetAttributes = {
+					366DC1BD1D65544700691A3B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					366DC1D61D65544700691A3B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 366DC1BD1D65544700691A3B;
+					};
+					366DC1E11D65544700691A3B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 366DC1BD1D65544700691A3B;
+					};
+				};
+			};
+			buildConfigurationList = 366DC1B91D65544700691A3B /* Build configuration list for PBXProject "ZFVoteViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 366DC1B51D65544700691A3B;
+			productRefGroup = 366DC1BF1D65544700691A3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				366DC1BD1D65544700691A3B /* ZFVoteViewDemo */,
+				366DC1D61D65544700691A3B /* ZFVoteViewDemoTests */,
+				366DC1E11D65544700691A3B /* ZFVoteViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		366DC1BC1D65544700691A3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366DC1D11D65544700691A3B /* LaunchScreen.storyboard in Resources */,
+				366DC1CE1D65544700691A3B /* Assets.xcassets in Resources */,
+				366DC1CC1D65544700691A3B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366DC1D51D65544700691A3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366DC1E01D65544700691A3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		366DC1BA1D65544700691A3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366DC1C91D65544700691A3B /* ViewController.m in Sources */,
+				366DC1C61D65544700691A3B /* AppDelegate.m in Sources */,
+				366DC1C31D65544700691A3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366DC1D31D65544700691A3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366DC1DC1D65544700691A3B /* ZFVoteViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366DC1DE1D65544700691A3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366DC1E71D65544700691A3B /* ZFVoteViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		366DC1D91D65544700691A3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 366DC1BD1D65544700691A3B /* ZFVoteViewDemo */;
+			targetProxy = 366DC1D81D65544700691A3B /* PBXContainerItemProxy */;
+		};
+		366DC1E41D65544700691A3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 366DC1BD1D65544700691A3B /* ZFVoteViewDemo */;
+			targetProxy = 366DC1E31D65544700691A3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		366DC1CA1D65544700691A3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				366DC1CB1D65544700691A3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		366DC1CF1D65544700691A3B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				366DC1D01D65544700691A3B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		366DC1E91D65544700691A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		366DC1EA1D65544700691A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		366DC1EC1D65544700691A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZFVoteViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zfbory.animateRaingBar.ZFVoteViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		366DC1ED1D65544700691A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZFVoteViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zfbory.animateRaingBar.ZFVoteViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		366DC1EF1D65544700691A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZFVoteViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zfbory.animateRaingBar.ZFVoteViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZFVoteViewDemo.app/ZFVoteViewDemo";
+			};
+			name = Debug;
+		};
+		366DC1F01D65544700691A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZFVoteViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zfbory.animateRaingBar.ZFVoteViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZFVoteViewDemo.app/ZFVoteViewDemo";
+			};
+			name = Release;
+		};
+		366DC1F21D65544700691A3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZFVoteViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zfbory.animateRaingBar.ZFVoteViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZFVoteViewDemo;
+			};
+			name = Debug;
+		};
+		366DC1F31D65544700691A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZFVoteViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zfbory.animateRaingBar.ZFVoteViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZFVoteViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		366DC1B91D65544700691A3B /* Build configuration list for PBXProject "ZFVoteViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366DC1E91D65544700691A3B /* Debug */,
+				366DC1EA1D65544700691A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		366DC1EB1D65544700691A3B /* Build configuration list for PBXNativeTarget "ZFVoteViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366DC1EC1D65544700691A3B /* Debug */,
+				366DC1ED1D65544700691A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		366DC1EE1D65544700691A3B /* Build configuration list for PBXNativeTarget "ZFVoteViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366DC1EF1D65544700691A3B /* Debug */,
+				366DC1F01D65544700691A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		366DC1F11D65544700691A3B /* Build configuration list for PBXNativeTarget "ZFVoteViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				366DC1F21D65544700691A3B /* Debug */,
+				366DC1F31D65544700691A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 366DC1B61D65544700691A3B /* Project object */;
+}
