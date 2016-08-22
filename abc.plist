@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>data</key>
+	<dict>
+		<key>info</key>
+		<dict>
+			<key>list</key>
+			<array>
+				<array>
+					<string>福房广告</string>
+					<string>400000.00</string>
+				</array>
+				<array>
+					<string>合同类型</string>
+					<string>普通合同</string>
+				</array>
+				<array>
+					<string>合同时间</string>
+					<string>2014.05.10-2015.05.08</string>
+				</array>
+				<array>
+					<string>签约单位</string>
+					<string>福建华辰房地产有限公司</string>
+				</array>
+			</array>
+			<key>money</key>
+			<string>400000.00元</string>
+			<key>sale</key>
+			<string>许桂清</string>
+			<key>type</key>
+			<string>签约金额</string>
+		</dict>
+	</dict>
+	<key>error_code</key>
+	<integer>0</integer>
+	<key>error_message</key>
+	<string></string>
+	<key>timeout</key>
+	<integer>60</integer>
+</dict>
+</plist>
