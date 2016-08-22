@@ -17,8 +17,9 @@
 
 **效果图如下** <br />
 
-待传
-
+![image](https://github.com/ZFbaby/ZFVoteViewDemo/blob/master/格瓦拉投票效果1.gif)
+![image](https://github.com/ZFbaby/ZFVoteViewDemo/blob/master/格瓦拉投票效果2.gif)
+![image](https://github.com/ZFbaby/ZFVoteViewDemo/blob/master/格瓦拉投票效果3.gif)
 
 ######实现步骤：
 * 数据回来的时候就要根据数据算出每一行的高度并且算出总高
