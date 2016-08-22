@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "ZFVoteModel.h"
 @interface ZFVoteView : UIView
 
+-(instancetype)initWithFrame:(CGRect)frame voteView:(ZFVoteModel *)voteModel;
+
+@property (nonatomic, strong) ZFVoteModel *voteModel;
+
+- (void)thumbUpstartAnimation;
 @end

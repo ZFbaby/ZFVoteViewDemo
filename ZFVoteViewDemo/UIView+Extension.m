@@ -8,6 +8,7 @@
 
 #import "UIView+Extension.h"
 
+
 @implementation UIView (Extension)
 
 
@@ -84,3 +85,21 @@
 }
 
 @end
+
+
+@implementation UILabel(Extension)
+
++(instancetype)labelWithFont:(UIFont *)font textColor:(UIColor *)textColor textAlignment:(NSTextAlignment)textAlignment numberOfLines:(NSInteger)numberOfLines{
+    UILabel *label = [[UILabel alloc]init];
+    label.font = font;
+    label.textColor = textColor;
+    label.textAlignment = textAlignment;
+    label.numberOfLines = numberOfLines;
+    
+    return label;
+}
+
+@end
+
+
+

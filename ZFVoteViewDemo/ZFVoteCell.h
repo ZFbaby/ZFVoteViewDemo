@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "ZFVoteModel.h"
 @interface ZFVoteCell : UITableViewCell
+
+/**voteModel*/
+@property (nonatomic, strong) ZFVoteModel *voteModel;
+
+-(void)thumbUpstartAnimation;
 
 @end

@@ -15,6 +15,28 @@
 		366DC1D11D65544700691A3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366DC1CF1D65544700691A3B /* LaunchScreen.storyboard */; };
 		366DC1DC1D65544700691A3B /* ZFVoteViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC1DB1D65544700691A3B /* ZFVoteViewDemoTests.m */; };
 		366DC1E71D65544700691A3B /* ZFVoteViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC1E61D65544700691A3B /* ZFVoteViewDemoUITests.m */; };
+		366DC1F51D6563DF00691A3B /* abc.plist in Resources */ = {isa = PBXBuildFile; fileRef = 366DC1F41D6563DF00691A3B /* abc.plist */; };
+		366DC20E1D65816C00691A3B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 366DC1F71D65816C00691A3B /* Info.plist */; };
+		366DC20F1D65816C00691A3B /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC1FA1D65816C00691A3B /* MJExtensionConst.m */; };
+		366DC2101D65816C00691A3B /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC1FC1D65816C00691A3B /* MJFoundation.m */; };
+		366DC2111D65816C00691A3B /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC1FE1D65816C00691A3B /* MJProperty.m */; };
+		366DC2121D65816C00691A3B /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC2001D65816C00691A3B /* MJPropertyKey.m */; };
+		366DC2131D65816C00691A3B /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC2021D65816C00691A3B /* MJPropertyType.m */; };
+		366DC2141D65816C00691A3B /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC2041D65816C00691A3B /* NSObject+MJClass.m */; };
+		366DC2151D65816C00691A3B /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC2061D65816C00691A3B /* NSObject+MJCoding.m */; };
+		366DC2161D65816C00691A3B /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC2081D65816C00691A3B /* NSObject+MJKeyValue.m */; };
+		366DC2171D65816C00691A3B /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC20A1D65816C00691A3B /* NSObject+MJProperty.m */; };
+		366DC2181D65816C00691A3B /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC20C1D65816C00691A3B /* NSString+MJExtension.m */; };
+		366DC21C1D6581AB00691A3B /* ZFVoteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC21B1D6581AB00691A3B /* ZFVoteModel.m */; };
+		366DC2201D65856A00691A3B /* ZFVoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC21F1D65856A00691A3B /* ZFVoteCell.m */; };
+		366DC2231D6587AC00691A3B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC2221D6587AC00691A3B /* UIView+Extension.m */; };
+		366DC2551D66D43100691A3B /* ZFVoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC2541D66D43100691A3B /* ZFVoteView.m */; };
+		366DC2581D67509600691A3B /* ZFPercentBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC2571D67509600691A3B /* ZFPercentBar.m */; };
+		366DC25B1D6A91FB00691A3B /* ZFVoteTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 366DC25A1D6A91FB00691A3B /* ZFVoteTableView.m */; };
+		366DC2621D6AF65000691A3B /* 格瓦拉投票效果1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 366DC25F1D6AF65000691A3B /* 格瓦拉投票效果1.gif */; };
+		366DC2641D6AF65000691A3B /* 格瓦拉投票效果2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 366DC2611D6AF65000691A3B /* 格瓦拉投票效果2.gif */; };
+		366DC2691D6AFCAE00691A3B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 366DC2681D6AFCAE00691A3B /* README.md */; };
+		366DC26B1D6B2CC800691A3B /* 格瓦拉投票效果3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 366DC26A1D6B2CC800691A3B /* 格瓦拉投票效果3.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +73,46 @@
 		366DC1E21D65544700691A3B /* ZFVoteViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFVoteViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		366DC1E61D65544700691A3B /* ZFVoteViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFVoteViewDemoUITests.m; sourceTree = "<group>"; };
 		366DC1E81D65544700691A3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		366DC1F41D6563DF00691A3B /* abc.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = abc.plist; sourceTree = "<group>"; };
+		366DC1F71D65816C00691A3B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		366DC1F81D65816C00691A3B /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		366DC1F91D65816C00691A3B /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		366DC1FA1D65816C00691A3B /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		366DC1FB1D65816C00691A3B /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		366DC1FC1D65816C00691A3B /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		366DC1FD1D65816C00691A3B /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		366DC1FE1D65816C00691A3B /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		366DC1FF1D65816C00691A3B /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		366DC2001D65816C00691A3B /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		366DC2011D65816C00691A3B /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		366DC2021D65816C00691A3B /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		366DC2031D65816C00691A3B /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		366DC2041D65816C00691A3B /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		366DC2051D65816C00691A3B /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		366DC2061D65816C00691A3B /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		366DC2071D65816C00691A3B /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		366DC2081D65816C00691A3B /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		366DC2091D65816C00691A3B /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		366DC20A1D65816C00691A3B /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		366DC20B1D65816C00691A3B /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		366DC20C1D65816C00691A3B /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		366DC21A1D6581AB00691A3B /* ZFVoteModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFVoteModel.h; sourceTree = "<group>"; };
+		366DC21B1D6581AB00691A3B /* ZFVoteModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFVoteModel.m; sourceTree = "<group>"; };
+		366DC21E1D65856A00691A3B /* ZFVoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFVoteCell.h; sourceTree = "<group>"; };
+		366DC21F1D65856A00691A3B /* ZFVoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFVoteCell.m; sourceTree = "<group>"; };
+		366DC2211D6587AC00691A3B /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		366DC2221D6587AC00691A3B /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		366DC24A1D659ED900691A3B /* ZFConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFConfig.h; sourceTree = "<group>"; };
+		366DC2531D66D43100691A3B /* ZFVoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFVoteView.h; sourceTree = "<group>"; };
+		366DC2541D66D43100691A3B /* ZFVoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFVoteView.m; sourceTree = "<group>"; };
+		366DC2561D67509600691A3B /* ZFPercentBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPercentBar.h; sourceTree = "<group>"; };
+		366DC2571D67509600691A3B /* ZFPercentBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPercentBar.m; sourceTree = "<group>"; };
+		366DC2591D6A91FB00691A3B /* ZFVoteTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFVoteTableView.h; sourceTree = "<group>"; };
+		366DC25A1D6A91FB00691A3B /* ZFVoteTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFVoteTableView.m; sourceTree = "<group>"; };
+		366DC25F1D6AF65000691A3B /* 格瓦拉投票效果1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "格瓦拉投票效果1.gif"; sourceTree = "<group>"; };
+		366DC2611D6AF65000691A3B /* 格瓦拉投票效果2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "格瓦拉投票效果2.gif"; sourceTree = "<group>"; };
+		366DC2681D6AFCAE00691A3B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		366DC26A1D6B2CC800691A3B /* 格瓦拉投票效果3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "格瓦拉投票效果3.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +143,11 @@
 		366DC1B51D65544700691A3B = {
 			isa = PBXGroup;
 			children = (
+				366DC25F1D6AF65000691A3B /* 格瓦拉投票效果1.gif */,
+				366DC2611D6AF65000691A3B /* 格瓦拉投票效果2.gif */,
+				366DC26A1D6B2CC800691A3B /* 格瓦拉投票效果3.gif */,
+				366DC1F41D6563DF00691A3B /* abc.plist */,
+				366DC2681D6AFCAE00691A3B /* README.md */,
 				366DC1C01D65544700691A3B /* ZFVoteViewDemo */,
 				366DC1DA1D65544700691A3B /* ZFVoteViewDemoTests */,
 				366DC1E51D65544700691A3B /* ZFVoteViewDemoUITests */,
@@ -101,11 +168,10 @@
 		366DC1C01D65544700691A3B /* ZFVoteViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				366DC1C41D65544700691A3B /* AppDelegate.h */,
-				366DC1C51D65544700691A3B /* AppDelegate.m */,
-				366DC1C71D65544700691A3B /* ViewController.h */,
-				366DC1C81D65544700691A3B /* ViewController.m */,
-				366DC1CA1D65544700691A3B /* Main.storyboard */,
+				366DC2651D6AF6B300691A3B /* Controller */,
+				366DC21D1D65832600691A3B /* View */,
+				366DC2191D65817600691A3B /* Model */,
+				366DC1F61D65815600691A3B /* Lib */,
 				366DC1CD1D65544700691A3B /* Assets.xcassets */,
 				366DC1CF1D65544700691A3B /* LaunchScreen.storyboard */,
 				366DC1D21D65544700691A3B /* Info.plist */,
@@ -138,6 +204,83 @@
 				366DC1E81D65544700691A3B /* Info.plist */,
 			);
 			path = ZFVoteViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		366DC1F61D65815600691A3B /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				366DC20D1D65816C00691A3B /* MJExtension */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		366DC20D1D65816C00691A3B /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				366DC1F71D65816C00691A3B /* Info.plist */,
+				366DC1F81D65816C00691A3B /* MJExtension.h */,
+				366DC1F91D65816C00691A3B /* MJExtensionConst.h */,
+				366DC1FA1D65816C00691A3B /* MJExtensionConst.m */,
+				366DC1FB1D65816C00691A3B /* MJFoundation.h */,
+				366DC1FC1D65816C00691A3B /* MJFoundation.m */,
+				366DC1FD1D65816C00691A3B /* MJProperty.h */,
+				366DC1FE1D65816C00691A3B /* MJProperty.m */,
+				366DC1FF1D65816C00691A3B /* MJPropertyKey.h */,
+				366DC2001D65816C00691A3B /* MJPropertyKey.m */,
+				366DC2011D65816C00691A3B /* MJPropertyType.h */,
+				366DC2021D65816C00691A3B /* MJPropertyType.m */,
+				366DC2031D65816C00691A3B /* NSObject+MJClass.h */,
+				366DC2041D65816C00691A3B /* NSObject+MJClass.m */,
+				366DC2051D65816C00691A3B /* NSObject+MJCoding.h */,
+				366DC2061D65816C00691A3B /* NSObject+MJCoding.m */,
+				366DC2071D65816C00691A3B /* NSObject+MJKeyValue.h */,
+				366DC2081D65816C00691A3B /* NSObject+MJKeyValue.m */,
+				366DC2091D65816C00691A3B /* NSObject+MJProperty.h */,
+				366DC20A1D65816C00691A3B /* NSObject+MJProperty.m */,
+				366DC20B1D65816C00691A3B /* NSString+MJExtension.h */,
+				366DC20C1D65816C00691A3B /* NSString+MJExtension.m */,
+			);
+			name = MJExtension;
+			path = "../../../Downloads/ZFSeatsSelection-master-2/ZFSeatsSelection/Lib/MJExtension";
+			sourceTree = "<group>";
+		};
+		366DC2191D65817600691A3B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				366DC21A1D6581AB00691A3B /* ZFVoteModel.h */,
+				366DC21B1D6581AB00691A3B /* ZFVoteModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		366DC21D1D65832600691A3B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				366DC2561D67509600691A3B /* ZFPercentBar.h */,
+				366DC2571D67509600691A3B /* ZFPercentBar.m */,
+				366DC2211D6587AC00691A3B /* UIView+Extension.h */,
+				366DC2221D6587AC00691A3B /* UIView+Extension.m */,
+				366DC21E1D65856A00691A3B /* ZFVoteCell.h */,
+				366DC21F1D65856A00691A3B /* ZFVoteCell.m */,
+				366DC24A1D659ED900691A3B /* ZFConfig.h */,
+				366DC2531D66D43100691A3B /* ZFVoteView.h */,
+				366DC2541D66D43100691A3B /* ZFVoteView.m */,
+				366DC2591D6A91FB00691A3B /* ZFVoteTableView.h */,
+				366DC25A1D6A91FB00691A3B /* ZFVoteTableView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		366DC2651D6AF6B300691A3B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				366DC1C41D65544700691A3B /* AppDelegate.h */,
+				366DC1C51D65544700691A3B /* AppDelegate.m */,
+				366DC1C71D65544700691A3B /* ViewController.h */,
+				366DC1C81D65544700691A3B /* ViewController.m */,
+				366DC1CA1D65544700691A3B /* Main.storyboard */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +386,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				366DC26B1D6B2CC800691A3B /* 格瓦拉投票效果3.gif in Resources */,
+				366DC2641D6AF65000691A3B /* 格瓦拉投票效果2.gif in Resources */,
 				366DC1D11D65544700691A3B /* LaunchScreen.storyboard in Resources */,
+				366DC1F51D6563DF00691A3B /* abc.plist in Resources */,
 				366DC1CE1D65544700691A3B /* Assets.xcassets in Resources */,
+				366DC2621D6AF65000691A3B /* 格瓦拉投票效果1.gif in Resources */,
+				366DC20E1D65816C00691A3B /* Info.plist in Resources */,
 				366DC1CC1D65544700691A3B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,8 +418,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				366DC2141D65816C00691A3B /* NSObject+MJClass.m in Sources */,
+				366DC25B1D6A91FB00691A3B /* ZFVoteTableView.m in Sources */,
+				366DC2691D6AFCAE00691A3B /* README.md in Sources */,
+				366DC21C1D6581AB00691A3B /* ZFVoteModel.m in Sources */,
+				366DC20F1D65816C00691A3B /* MJExtensionConst.m in Sources */,
+				366DC2131D65816C00691A3B /* MJPropertyType.m in Sources */,
+				366DC2201D65856A00691A3B /* ZFVoteCell.m in Sources */,
+				366DC2121D65816C00691A3B /* MJPropertyKey.m in Sources */,
+				366DC2161D65816C00691A3B /* NSObject+MJKeyValue.m in Sources */,
+				366DC2151D65816C00691A3B /* NSObject+MJCoding.m in Sources */,
+				366DC2181D65816C00691A3B /* NSString+MJExtension.m in Sources */,
+				366DC2111D65816C00691A3B /* MJProperty.m in Sources */,
+				366DC2551D66D43100691A3B /* ZFVoteView.m in Sources */,
+				366DC2171D65816C00691A3B /* NSObject+MJProperty.m in Sources */,
 				366DC1C91D65544700691A3B /* ViewController.m in Sources */,
 				366DC1C61D65544700691A3B /* AppDelegate.m in Sources */,
+				366DC2101D65816C00691A3B /* MJFoundation.m in Sources */,
+				366DC2231D6587AC00691A3B /* UIView+Extension.m in Sources */,
+				366DC2581D67509600691A3B /* ZFPercentBar.m in Sources */,
 				366DC1C31D65544700691A3B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +581,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZFVoteViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zfbory.animateRaingBar.ZFVoteViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +593,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZFVoteViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zfbory.animateRaingBar.ZFVoteViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +665,7 @@
 				366DC1ED1D65544700691A3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		366DC1EE1D65544700691A3B /* Build configuration list for PBXNativeTarget "ZFVoteViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +674,7 @@
 				366DC1F01D65544700691A3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		366DC1F11D65544700691A3B /* Build configuration list for PBXNativeTarget "ZFVoteViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +683,7 @@
 				366DC1F31D65544700691A3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

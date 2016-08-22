@@ -1,37 +1,20 @@
 //
 //  ZFPercentBar.m
-//  GraphKit
+//  ZFVoteViewDemo
 //
-//  Copyright (c) 2014 Michal Konturek
-//
-//  Permission is hereby granted, free of charge, to any person obtaining a copy
-//  of this software and associated documentation files (the "Software"), to deal
-//  in the Software without restriction, including without limitation the rights
-//  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-//  copies of the Software, and to permit persons to whom the Software is
-//  furnished to do so, subject to the following conditions:
-//
-//  The above copyright notice and this permission notice shall be included in
-//  all copies or substantial portions of the Software.
-//
-//  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-//  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-//  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-//  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-//  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-//  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-//  THE SOFTWARE.
+//  Created by MAC_PRO on 16/8/18.
+//  Copyright © 2016年 ZFbory. All rights reserved.
 //
 
 #import "ZFPercentBar.h"
 
 #import <QuartzCore/QuartzCore.h>
 
-static CFTimeInterval kDefaultAnimationDuration = 1.0;
-
 @interface ZFPercentBar ()
 
-@property (atomic, assign) BOOL animationInProgress;
+@property (nonatomic, assign) BOOL animated;
+
+@property (nonatomic, assign) CFTimeInterval animationDuration;
 
 @end
 
@@ -40,25 +23,16 @@ static CFTimeInterval kDefaultAnimationDuration = 1.0;
 - (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-        [self _init];
+        self.animated = YES;
+        self.animationDuration = 0.5;
+        self.layer.cornerRadius = 5.0;
+        self.layer.masksToBounds = YES;
+        self.backgroundColor = [UIColor whiteColor];
+        _percentage = 0;
     }
     return self;
 }
 
-- (void)_init {
-    self.animated = YES;
-    self.animationDuration = kDefaultAnimationDuration;
-    self.clipsToBounds = YES;
-    self.cornerRadius = 5.0;
-    self.foregroundColor = [UIColor colorWithRed:17.0 / 255.0 green:108.0 / 255.0  blue:219.0 /255.0 alpha:1];//40 151 252
-    self.backgroundColor = [UIColor whiteColor];
-    _percentage = 0;
-}
-
-- (void)setCornerRadius:(CGFloat)cornerRadius {
-    _cornerRadius = cornerRadius;
-    self.layer.cornerRadius = cornerRadius;
-}
 
 - (void)setPercentage:(CGFloat)percentage animated:(BOOL)animated {
     self.animated = animated;
@@ -68,36 +42,21 @@ static CFTimeInterval kDefaultAnimationDuration = 1.0;
 
 - (void)setPercentage:(CGFloat)percentage {
     if (percentage == _percentage) return;
-    if (percentage > 100) percentage = 100;
-    if (percentage < 0) percentage = 0;
-    if (self.animationInProgress) return;
+    if (percentage >= 100) percentage = 100;
+    if (percentage <= 0) percentage = 0;
     
-    [self _progressBarTo:percentage];
+    [self progressBarTo:percentage];
     _percentage = percentage;
 }
 
-- (void)_progressBarTo:(CGFloat)value {
+- (void)progressBarTo:(CGFloat)value {
     
-    CGFloat converted = (value / 100);
-    UIBezierPath *path = [self _bezierPathWith:converted];
     
-    CAShapeLayer *layer = [self _layerWithPath:path];
-    if (_percentage > value) layer.strokeColor = [self.backgroundColor CGColor];
-    
-    [self.layer addSublayer:layer];
-    
-    if (self.animated) {
-        id animation = [self _animationWithKeyPath:@"strokeEnd"];
-        [layer addAnimation:animation forKey:@"strokeEndAnimation"];
-    }
-}
-
-- (UIBezierPath *)_bezierPathWith:(CGFloat)value {
     UIBezierPath *path = [UIBezierPath bezierPath];
     CGFloat startY = self.frame.size.height / 2;
     CGFloat startX = (self.frame.size.width * (_percentage / 100));
-    CGFloat endX = (self.frame.size.width *  value);
-    if (_percentage > value * 100){
+    CGFloat endX = (self.frame.size.width *  value/100);
+    if (_percentage > value){
         [path moveToPoint:CGPointMake(startX+1, startY)];
         [path addLineToPoint:CGPointMake(endX+1, startY)];
     }else{
@@ -105,34 +64,28 @@ static CFTimeInterval kDefaultAnimationDuration = 1.0;
         [path addLineToPoint:CGPointMake(endX, startY)];
     }
 
-    return path;
+    
+    CAShapeLayer *layer = [CAShapeLayer layer];
+    layer.lineWidth = self.frame.size.height;
+    layer.path = path.CGPath;
+    layer.strokeColor = self.foregroundColor.CGColor;
+    
+    if (_percentage > value) layer.strokeColor = [self.backgroundColor CGColor];
+    
+    [self.layer addSublayer:layer];
+    
+    if (!self.animated) return;
+    
+        CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"strokeEnd"];
+        animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+        animation.duration = self.animationDuration;
+        animation.fromValue = @(0);
+        animation.toValue = @(1);
+        animation.delegate = self;
+        [layer addAnimation:animation forKey:@"strokeEndAnimation"];
+    
 }
 
-- (CAShapeLayer *)_layerWithPath:(UIBezierPath *)path {
-    CAShapeLayer *item = [CAShapeLayer layer];
-    item.lineWidth = self.frame.size.height;
-    item.path = path.CGPath;
-    item.strokeColor = self.foregroundColor.CGColor;
-    return item;
-}
-
-- (CABasicAnimation *)_animationWithKeyPath:(NSString *)keyPath {
-    CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:keyPath];
-    animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
-    animation.duration = self.animationDuration;
-    animation.fromValue = @(0);
-    animation.toValue = @(1);
-    animation.delegate = self;
-    return animation;
-}
-
-- (void)animationDidStart:(CAAnimation *)anim {
-    self.animationInProgress = YES;
-}
-
-- (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag {
-    self.animationInProgress = NO;
-}
 
 - (void)setForegroundColor:(UIColor *)foregroundColor {
     _foregroundColor = foregroundColor;
@@ -146,8 +99,13 @@ static CFTimeInterval kDefaultAnimationDuration = 1.0;
 - (void)reset {
 
     self.percentage = 0;
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        self.layer.sublayers = nil;
+    
+    typeof(self) weakSelf = self;
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(self.animationDuration * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        
+        weakSelf.layer.sublayers = nil;
+        
     });
 }
 
