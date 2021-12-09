@@ -26,7 +26,6 @@
 		366DC2641D6AF65000691A3B /* 格瓦拉投票效果2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 366DC2611D6AF65000691A3B /* 格瓦拉投票效果2.gif */; };
 		366DC2691D6AFCAE00691A3B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 366DC2681D6AFCAE00691A3B /* README.md */; };
 		366DC26B1D6B2CC800691A3B /* 格瓦拉投票效果3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 366DC26A1D6B2CC800691A3B /* 格瓦拉投票效果3.gif */; };
-		36B6EEED1D6C1518005C3FBF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36B6EED71D6C1518005C3FBF /* Info.plist */; };
 		36B6EEEE1D6C1518005C3FBF /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B6EEDA1D6C1518005C3FBF /* MJExtensionConst.m */; };
 		36B6EEEF1D6C1518005C3FBF /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B6EEDC1D6C1518005C3FBF /* MJFoundation.m */; };
 		36B6EEF01D6C1518005C3FBF /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B6EEDE1D6C1518005C3FBF /* MJProperty.m */; };
@@ -91,7 +90,6 @@
 		366DC2611D6AF65000691A3B /* 格瓦拉投票效果2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "格瓦拉投票效果2.gif"; sourceTree = "<group>"; };
 		366DC2681D6AFCAE00691A3B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		366DC26A1D6B2CC800691A3B /* 格瓦拉投票效果3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "格瓦拉投票效果3.gif"; sourceTree = "<group>"; };
-		36B6EED71D6C1518005C3FBF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36B6EED81D6C1518005C3FBF /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
 		36B6EED91D6C1518005C3FBF /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
 		36B6EEDA1D6C1518005C3FBF /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
@@ -256,7 +254,6 @@
 		36B6EED61D6C1518005C3FBF /* MJExtension */ = {
 			isa = PBXGroup;
 			children = (
-				36B6EED71D6C1518005C3FBF /* Info.plist */,
 				36B6EED81D6C1518005C3FBF /* MJExtension.h */,
 				36B6EED91D6C1518005C3FBF /* MJExtensionConst.h */,
 				36B6EEDA1D6C1518005C3FBF /* MJExtensionConst.m */,
@@ -365,6 +362,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -387,7 +385,6 @@
 			files = (
 				366DC26B1D6B2CC800691A3B /* 格瓦拉投票效果3.gif in Resources */,
 				366DC2641D6AF65000691A3B /* 格瓦拉投票效果2.gif in Resources */,
-				36B6EEED1D6C1518005C3FBF /* Info.plist in Resources */,
 				366DC1D11D65544700691A3B /* LaunchScreen.storyboard in Resources */,
 				366DC1F51D6563DF00691A3B /* abc.plist in Resources */,
 				366DC1CE1D65544700691A3B /* Assets.xcassets in Resources */,
